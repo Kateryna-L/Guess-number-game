@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+}
+
+span {
+  display: block;
+  padding-top: 200px;
+}
+
+.you-guess  a,
+.i-guess  a {
+  margin-top: 200px;
+  font: 30pt "Segoe Script";
+  text-decoration: none;
+  color: white;
+}
+
+.you-guess  a:hover {
+  color: burlywood;
+}
+
+.i-guess  a:hover {
+  color: cornflowerblue;
+}
+
+/* LEFT PART */
+.you-guess {
+  position: fixed;
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-image: url("images/left_back.jpg");
+  background-position: top right;
+  background-position: 100%;
+}
+
+/**  RIGHT PART***/
+.i-guess {
+  position: fixed;
+  right: 0;
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-image: url("images/right_back.jpg");
+  background-position: top left;
+  background-position: 100%;
+}
+
+/* LADY-BIRD */
+.bottom {
+  bottom: 0;
+}
+
+.bottom img {
+  position: absolute;
+  bottom: 0;
+  display:block;
+  left:0;
+  right:0;
+  margin:auto;
+}
+
+.bottom > img:first-child {
+  height: 40%;
+}
+
+.bottom > img:nth-child(2) {
+  height: 28%;
+}
+
+.left-eye,
+.right-eye {
+  position: absolute;
+  bottom: 16%;
+  display:block;
+  width: 2%;
+  height: 4%;
+  margin:auto;
+  border: solid black 4px;
+  border-radius: 50%;
+  background: white;
+}
+.left-eye {
+  left:0;
+  right:3%;
+}
+.right-eye{
+  left:4%;
+  right:0;
+}
+
+.left-pupil,
+.right-pupil {
+  width: 58%;
+  height: 65%;
+  margin: 0;
+  background: black;
+  border-radius: 50%;
+}

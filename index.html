@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Guess Number</title>
+  <link rel="stylesheet" href="new_1.css">
+</head>
+<body>
+  <div class="you-guess" onmouseover="youGuessEyes(this)">
+    <span>
+      <a class="you-guess-btn" href="YouGuess.html" > Вгадай число </a></span>
+    </div>
+  <div class="i-guess" onmouseover="iGuessEyes(this)">
+    <span>
+      <a class="i-guess-btn" href="IGuess.html"> Загадай число </a>
+    </span>
+  </div>
+
+  <div class="bottom">
+    <img src="images/half_leaf.png">
+    <img src="images/half_LadyBird.png" onmouseover="crossEyes(this)" onmouseout = "normalEyes(this)">
+
+    <div class="left-eye">
+      <div class="left-pupil" id="left-pupil"></div>
+    </div>
+    <div class="right-eye">
+      <div class="right-pupil" id="right-pupil"></div>
+    </div>
+  </div>
+
+  <script src="script/myscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Guess Number</title>
+  <link rel="stylesheet" href="IGuessStyle.css">
+</head>
+<body>
+  <h1>Загадай число</h1>
+  <h3>від 1 до 100</h3>
+  <div id="my-guess">Це число
+    <div id="my-number"></div> ?
+  </div>
+
+  <div id="game">
+    <img id="more" src="images/button_more.png" alt="more">
+    <img id="less" src="images/button_less.png" alt="less">
+    <img id="right" src="images/button_right.png" alt="right">
+  </div>
+  <br>
+
+  <div id="play-again"><img src="images/button5.png" id="play-again-btn" alt="play again" onclick="document.location.reload()"></div>
+  <div id="start-page"><img src="images/button6.png"id="start-page-btn" alt="to start page" onclick="location.href = 'index.html'"></div>
+  <br>
+
+  <div class="bottom">
+    <img src="images/half_leaf.png" alt="">
+    <img src="images/half_LadyBird.png" alt="" onmouseover="crossEyes(this)" onmouseout = "normalEyes(this)">
+    <div class="left-eye">
+       <div class="left-pupil" id="left-pupil"></div>
+    </div>
+    <div class="right-eye">
+      <div class="right-pupil" id="right-pupil"></div>
+    </div>
+  </div>
+
+  <script src="script/myscriptIGuess.js"></script>
+</body>
+</html>

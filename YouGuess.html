@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Guess Number</title>
+  <link rel="stylesheet" href="YouGuessStyle.css">
+</head>
+<body>
+  <h1>Вгадай число</h1>
+  <h3>від 1 до 100</h3>
+
+  <div class="put-number">
+    <input id="put-number" type="number" min="1" max="100" size="20px" value="1">
+    <div><img src="images/button3.png" alt="OK" onclick="result();"></div>
+    <br>
+  </div>
+
+  <div> <p id="answer">Яка твоя здогадка?</p></div>
+  <br>
+  <div id="play-again">
+    <img src="images/button5.png" id="play-again-btn" alt="play again">
+  </div>
+  <div id="start-page">
+    <img id="start-page-btn" src="images/button6.png" alt="to start page" onclick="location.href='index.html'">
+  </div>
+  <br>
+
+  <div class="bottom">
+    <img src="images/half_leaf.png" alt="">
+    <img src="images/half_LadyBird.png" alt="" onmouseover="crossEyes(this)" onmouseout = "normalEyes(this)">
+    <div class="left-eye">
+      <div class="left-pupil" id="left-pupil"></div>
+    </div>
+    <div class="right-eye">
+      <div class="right-pupil" id="right-pupil"></div>
+    </div>
+  </div>
+
+  <script src="script/myscriptYouGuess.js"></script>
+</body>
+</html>

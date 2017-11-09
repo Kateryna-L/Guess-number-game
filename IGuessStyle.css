@@ -1,0 +1,105 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font: 0 "Segoe Script";
+  text-align: center;
+  color: white;
+  background-image: url("images/right_back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+h3,
+#my-guess {
+  font-size: 25pt;
+}
+
+#my-number {
+  font-size: 30pt;
+}
+
+#my-guess,
+#my-number {
+  display: inline;
+}
+
+#game > img {
+  width: 120px;
+  margin: 10px auto 30px 20px;
+}
+
+#game > img:first-child {
+  margin-left: 0;
+}
+
+#play-again,
+#start-page {
+  display: inline-block;
+ }
+
+#play-again-btn {
+  width: 120px;
+}
+
+#start-page-btn {
+  margin-left: 20px;
+  width: 165px;
+}
+
+/* LADY-BIRD */
+.bottom {
+    bottom: 0;
+}
+
+.bottom img {
+    position: absolute;
+    bottom: 0;
+    display:block;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
+.bottom > img:first-child {
+    height: 40%;
+}
+
+.bottom > img:nth-child(2) {
+    height: 28%;
+}
+
+.left-eye,
+.right-eye {
+    position: absolute;
+    bottom: 16%;
+    display:block;
+    width: 2%;
+    height: 4%;
+    margin:auto;
+    border: solid black 4px;
+    border-radius: 50%;
+    background: white;
+}
+.left-eye {
+    left:0;
+    right:3%;
+}
+.right-eye{
+    left:4%;
+    right:0;
+}
+
+.left-pupil,
+.right-pupil {
+    width: 58%;
+    height: 65%;
+    margin: 0;
+    background: black;
+    border-radius: 50%;
+}
